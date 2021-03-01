@@ -15,7 +15,7 @@ container.registerSingleton<ICustomersRepository>(
 );
 
 container.registerSingleton<IProductsRepository>(
-  'ProductsReository',
+  'ProductsRepository',
   ProductsRepository,
 );
 
